@@ -12,7 +12,6 @@ set :use_sudo, true
 set :ssh_options, {
 	keys: %w(/home/yuva/Desktop/Ankit/Demochat/ankit-chat-pem.pem),
 	forward_agent: true,
-	port: 15555,
 	user: 'ubuntu'
   }
 
