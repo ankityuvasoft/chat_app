@@ -12,9 +12,8 @@ set :use_sudo, true
 set :ssh_options, {
 	keys: %w(/home/yuva/Desktop/Ankit/Demochat/ankit-chat-pem.pem),
 	forward_agent: true,
-	port: 15555,
-	user: 'ubuntu'
-  }
+	user: 'ubuntu',
+ 	:verbose => :debug }
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
@@ -23,7 +22,7 @@ set :ssh_options, {
 # set :deploy_to, '/var/www/my_app_name'
 
 # Default value for :scm is :git
-# set :scm, :git
+ set :scm, :git
 
 # Default value for :format is :airbrussh.
 # set :format, :airbrussh
