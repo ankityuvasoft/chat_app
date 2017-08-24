@@ -12,8 +12,9 @@ set :use_sudo, true
 set :ssh_options, {
 	keys: %w(/home/yuva/Desktop/Ankit/Demochat/ankit-chat-pem.pem),
 	forward_agent: true,
-	user: 'ubuntu',
- 	:verbose => :debug }
+	port: 15555,
+	user: 'ubuntu'
+  }
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
