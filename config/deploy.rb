@@ -12,8 +12,11 @@ set :use_sudo, true
 set :ssh_options, {
 	keys: %w(/home/yuva/Downloads/my-first-chat.pem),
 	forward_agent: true,
+
 	user: 'ubuntu'
 	 }
+
+
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
