@@ -25,8 +25,6 @@ set :ssh_options, {
 # set :deploy_to, '/var/www/my_app_name'
 
 # Default value for :scm is :git
- set :scm, :git
-
 # Default value for :format is :airbrussh.
 # set :format, :airbrussh
 
