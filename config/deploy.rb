@@ -16,7 +16,7 @@ set :ssh_options, {
 	user: 'ubuntu'
 	 }
 
-
+set :tmp_dir, "/home/dh_user_name/tmp"
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
