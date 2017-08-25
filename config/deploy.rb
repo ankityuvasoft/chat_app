@@ -10,10 +10,10 @@ set :deploy_to, "/home/ubuntu/Demochat"
 # set :deploy_via, :remote_cache
 set :use_sudo, true
 set :ssh_options, {
-	keys: %w(/home/yuva/Desktop/Ankit/Demochat/ankit-chat-pem.pem),
+	keys: %w(/home/yuva/Downloads/my-first-chat.pem),
 	forward_agent: true,
-	user: 'ubuntu',
- 	:verbose => :debug }
+	user: 'ubuntu'
+	 }
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
