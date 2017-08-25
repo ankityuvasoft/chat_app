@@ -2,7 +2,7 @@
 # ======================
 # Defines a single server with a list of roles and multiple properties.
 # You can define all roles on a single server, or split them:
-server "ec2-13-126-90-235.ap-south-1.compute.amazonaws.com", user: "ubuntu", roles: %w{app db web}, my_property: :my_value
+server "13.126.230.100", user: "ubuntu", roles: %w{app db web}, my_property: :my_value
 
 # server 'example.com', user: 'deploy', roles: %w{app db web}, my_property: :my_value
 # server 'example.com', user: 'deploy', roles: %w{app web}, other_property: :other_value
@@ -18,9 +18,9 @@ server "ec2-13-126-90-235.ap-south-1.compute.amazonaws.com", user: "ubuntu", rol
 # property set. Specify the username and a domain or IP for the server.
 # Don't use `:all`, it's a meta role.
 
-role :app, %w{ec2-13-126-28-255.ap-south-1.compute.amazonaws.com}, my_property: :my_value
-role :web, %w{ec2-13-126-28-255.ap-south-1.compute.amazonaws.com}, other_property: :other_value
-role :db,  %w{ec2-13-126-28-255.ap-south-1.compute.amazonaws.com}
+role :app, %w{13.126.230.100}, my_property: :my_value
+role :web, %w{13.126.230.100}, other_property: :other_value
+role :db,  %w{13.126.230.100}
 
 # role :app, %w{deploy@example.com}, my_property: :my_value
 # role :web, %w{user1@primary.com user2@additional.com}, other_property: :other_value
