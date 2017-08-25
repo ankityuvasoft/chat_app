@@ -7,7 +7,7 @@ set :branch, "master"
 set :user, "ubuntu"
 
 set :deploy_to, "/home/ubuntu/Demochat"
-# set :deploy_via, :remote_cache
+set :deploy_via, :remote_cache
 set :use_sudo, true
 set :ssh_options, {
 	keys: %w(/home/yuva/Downloads/my-first-chat.pem),
@@ -16,7 +16,7 @@ set :ssh_options, {
 	user: 'ubuntu'
 	 }
 
-set :tmp_dir, "/home/dh_user_name/tmp"
+
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
