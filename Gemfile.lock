@@ -130,7 +130,7 @@ GEM
       cocaine (~> 0.5.5)
       mime-types
       mimemagic (~> 0.3.0)
-    pg (1.1.3)
+    pg (0.18.0)
     puma (3.10.0)
     rack (2.0.3)
     rack-test (0.6.3)
@@ -243,7 +243,7 @@ DEPENDENCIES
   listen (~> 3.0.5)
   net-ssh (~> 3.2)
   paperclip
-  pg
+  pg (<= 0.18, < 2.0)
   puma (~> 3.0)
   rails (~> 5.0.5)
   redis
@@ -257,4 +257,4 @@ DEPENDENCIES
   websocket-rails
 
 BUNDLED WITH
-   1.16.2
+   1.16.5
