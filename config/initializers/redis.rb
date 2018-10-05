@@ -1,1 +1,1 @@
-# $redis = Redis.new(:host => 'localhost', :port => 3000, :driver => :hiredis)
+$redis = Redis.new(:host => 'https://chat-app-yuva.herokuapp.com/', :port => 8080, :driver => :hiredis)
