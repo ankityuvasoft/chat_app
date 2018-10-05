@@ -7,7 +7,8 @@ server "13.126.230.100", user: "ubuntu", roles: %w{app db web}, my_property: :my
 # server 'example.com', user: 'deploy', roles: %w{app db web}, my_property: :my_value
 # server 'example.com', user: 'deploy', roles: %w{app web}, other_property: :other_value
 # server 'db.example.com', user: 'deploy', roles: %w{db}
-
+config.action_cable.allowed_request_origins = [
+'https://chat-app-yuva.herokuapp.com/', 'https://chat-app-yuva.herokuapp.com/']
 
 
 # role-based syntax
