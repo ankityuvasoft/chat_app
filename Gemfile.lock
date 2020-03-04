@@ -131,7 +131,7 @@ GEM
       mime-types
       mimemagic (~> 0.3.0)
     pg (0.18.0)
-    puma (3.10.0)
+    puma (3.12.4)
     rack (2.0.3)
     rack-test (0.6.3)
       rack (>= 1.0)
@@ -244,7 +244,7 @@ DEPENDENCIES
   net-ssh (~> 3.2)
   paperclip
   pg (<= 0.18, < 2.0)
-  puma (~> 3.0)
+  puma (~> 3.12)
   rails (~> 5.0.5)
   redis
   sass-rails (~> 5.0)
